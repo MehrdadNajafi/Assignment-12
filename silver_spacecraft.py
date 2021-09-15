@@ -176,8 +176,8 @@ class Game(arcade.Window):
         elif key == arcade.key.ESCAPE:
             self.game_over.exit_game()
 
-        elif key == arcade.key.P:
-            self.game_over.play_again()
+        # elif key == arcade.key.P:
+        #     self.game_over.play_again()
 
 class GameOver(arcade.View):
     def __init__(self, w, h):
@@ -198,11 +198,11 @@ class GameOver(arcade.View):
         arcade.finish_render()
         arcade.exit()
 
-    def play_again(self):
-        arcade.finish_render()
-        arcade.exit()
-        self.play = Game()
-        arcade.run()
+    # def play_again(self):
+    #     arcade.finish_render()
+    #     arcade.exit()
+    #     self.play = Game()
+    #     arcade.run()
 
 
 game = Game()
