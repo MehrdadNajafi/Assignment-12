@@ -3,7 +3,7 @@
 ✅ As a result of the bullets, the enemy ship is destroyed and explodes.\
 ✅ The enemies spawn time is random between range 0 .. 6.\
 ✅ Remove any object from the list by removing any enemy or arrow from the game screen.\
-✅ In the start of the game, you have 3 ❤️ in left buttom corner that it show your remaining lives.\
+✅ In the start of the game, you have 3 ❤️ in left bottom corner that it show your remaining lives.\
 ✅ Display player points in the lower right corner. Player score = number of enemies exploded.\
 ✅ As each enemy reaches our planet, one life of player decrease.\
 ✅ When the lives are over, the GAME OVER message is printed on screen.\
